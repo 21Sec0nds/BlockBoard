@@ -1,0 +1,10 @@
+^C:\BLOCKBOARD\BLOCKBOARD\BUILD\CMAKEFILES\6A5755E094B6CA48E3F66FD8F90C06F6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/BlockBoard/BlockBoard -BC:/BlockBoard/BlockBoard/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/BlockBoard/BlockBoard/build/BlockBoard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

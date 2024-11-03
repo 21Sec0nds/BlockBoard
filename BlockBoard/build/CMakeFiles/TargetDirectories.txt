@@ -1,0 +1,3 @@
+C:/BlockBoard/BlockBoard/build/CMakeFiles/BlockBoard.dir
+C:/BlockBoard/BlockBoard/build/CMakeFiles/ALL_BUILD.dir
+C:/BlockBoard/BlockBoard/build/CMakeFiles/ZERO_CHECK.dir
